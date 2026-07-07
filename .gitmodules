@@ -1,0 +1,3 @@
+[submodule "001-fw"]
+	path = 001-fw
+	url = https://github.com/TABLEAUX-THEORY/001-fw
