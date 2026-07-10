@@ -64,13 +64,8 @@ flowchart LR
 
 #### **PARAMS:** med0id_0[1], med2id_1[2], med3i_1[2]
 
-<!--NOTE: Overlays can also be drawn *under* the main medium... Technically these are "underlays", but they are functionally identical other than draw order.-->
-
 ```mermaid
-flowchart LR
-  %% Overlays
-  o0["med_overlay<br><small>[0]"]
-  
+flowchart LR  
   %% Vals
   EX((EXIT))
   med2id_1["med2id<br><small>scr, [1]"]
@@ -86,10 +81,6 @@ flowchart LR
   %% as mediums, may have variable numbers of exit branches.
   med3id_0 -->EX
   med3id_1 -->EX
-  
-  %% Underlays
-  %% Though it is likely rare that more than one thread has a flow, I added an example here to show that it is possible. They can even cause an exit. It is also worth noting that, just because the thread has a flow, it does not need to reach the exit point. Only a single thread is required to reach exit in order for a loop to be valid.
-  o1["med_underlay_0<br><small>scr"]-->o2["med_underlay_1<br><small>scr"]-->EX
 ```
 
 ---
