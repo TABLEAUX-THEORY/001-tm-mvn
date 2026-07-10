@@ -10,14 +10,6 @@
 
 \<A concise description of the project goes here.\>
 
-## Aesthetics
-
-### Audio
-
-#### <First Audio Group>
-
-- <TODO>
-
 ### Visuals
 
 #### <First Visual Group>
